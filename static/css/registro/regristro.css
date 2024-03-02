@@ -79,6 +79,7 @@ main#inicio{
             display: flex;
             flex-direction: column;
             margin: 5px 0 0 0;
+            width: 50%;
         }
     
         #rol > select {
@@ -87,7 +88,7 @@ main#inicio{
             padding: 10px;
             border: solid 1px #aaa;
             background: transparent;
-            width: 50%;
+            width: 100%;
         }
 
 
@@ -100,14 +101,16 @@ main#inicio{
 .campos{
     margin: 12px;
     position: relative;
-    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* width: 80%; */
 
 }
 
 .campo_icono > i{
     border-radius: 10%;
     color: #358CB4;
-    left: 7px;
     padding: 10px;
     position: absolute;
     transform: translateY(40%);
